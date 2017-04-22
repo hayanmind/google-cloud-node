@@ -30,7 +30,7 @@ var is = require('is');
 var request = require('request').defaults({
   timeout: 60000,
   gzip: true,
-  forever: true,
+  forever: false,
   pool: {
     maxSockets: Infinity
   }
